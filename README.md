@@ -103,7 +103,7 @@ Tenant-aware uniqueness prevents the same business from duplicating a customer p
 
 ## Security and Privacy
 
-Passwords are hashed, authenticated API operations validate signed tokens, and role/tenant checks are enforced on the server. Public portfolio material contains no application source, database files, credentials, production URLs, or customer business identity. Screenshot names, dates, times, and the clearly synthetic phone number are demonstration values from the original guide. See [Security](docs/SECURITY.md).
+Passwords are hashed, authenticated API operations validate signed tokens, and role/tenant checks are enforced on the server. Public portfolio material contains no application source, database files, credentials, production URLs, customer business identity, or phone numbers. Screenshot names, dates, and times are demonstration values from the original guide. See [Security](docs/SECURITY.md).
 
 ## Development Status
 

@@ -8,7 +8,7 @@ A multilingual, tenant-aware appointment and customer-management platform for se
 
 Luxorius provides customer registration, account approval, appointment scheduling, administrative user controls, notifications, progressive-web-app foundations, and tenant-specific branding. The system is designed so multiple service businesses can share an application runtime while keeping operational records scoped to the correct tenant.
 
-The screenshots in this repository contain demonstration content only. Customer identity, production records, endpoints, and credentials are intentionally excluded.
+The screenshots in this repository come from the original Arabic product guide and contain demonstration content only. The customer's business name is deliberately redacted; production records, endpoints, and credentials are excluded.
 
 ## Problem
 
@@ -89,9 +89,9 @@ Tenant-aware uniqueness prevents the same business from duplicating a customer p
 |---|---|
 | ![Appointment workspace](screenshots/03-appointments.png) | ![Booking dialog](screenshots/04-booking.png) |
 
-| User administration | Tenant branding |
+| Appointment details | User administration |
 |---|---|
-| ![User administration](screenshots/05-user-administration.png) | ![Tenant branding](screenshots/06-tenant-branding.png) |
+| ![Appointment details](screenshots/05-appointment-details.png) | ![User administration](screenshots/06-user-administration.png) |
 
 ## Engineering Highlights
 
@@ -103,7 +103,7 @@ Tenant-aware uniqueness prevents the same business from duplicating a customer p
 
 ## Security and Privacy
 
-Passwords are hashed, authenticated API operations validate signed tokens, and role/tenant checks are enforced on the server. Public portfolio material contains no application source, database files, credentials, production URLs, customer identity, or customer records. See [Security](docs/SECURITY.md).
+Passwords are hashed, authenticated API operations validate signed tokens, and role/tenant checks are enforced on the server. Public portfolio material contains no application source, database files, credentials, production URLs, or customer business identity. Screenshot names, dates, times, and the clearly synthetic phone number are demonstration values from the original guide. See [Security](docs/SECURITY.md).
 
 ## Development Status
 
@@ -112,4 +112,3 @@ The current product demonstrates authentication, appointment, administration, no
 ## About This Repository
 
 This is a portfolio showcase repository. The production source code is maintained privately. It contains reviewed documentation and sanitized demonstration screenshots—not a redistributable application implementation.
-

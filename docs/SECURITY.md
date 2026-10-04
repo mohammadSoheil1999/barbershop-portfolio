@@ -8,7 +8,6 @@
 - Input validation and origin/CORS policy belong at the API boundary.
 - Notification credentials, database credentials, production URLs, and provider secrets remain server-side and are not included here.
 
-The public portfolio excludes customer identity and production data. The screenshots use the fictional portfolio brand “Luxorius” and contain no customer records.
+The public portfolio excludes customer business identity and production data. The original Arabic interface screenshots are retained for fidelity, with the identifying business name redacted. Visible names, dates, times, and the synthetic phone number are demonstration values documented as non-production data.
 
 This summary describes the design at a safe level and is not a claim of formal security certification.
-
